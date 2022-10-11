@@ -12,7 +12,8 @@ All the codes are written by myself during practicing and taking classes.
   * Sieve of Eratosthenes
 - Sort Algorithms (Part 2)
   * Quick Sort
-  * Advanced Quick Sort with Insertion Sort, Advanced Quick Sort with median of medians algorithm
+  * Advanced Quick Sort with Insertion Sort
+  * Advanced Quick Sort with median of medians algorithm
   * Shell Sort
 - Sort Algorithms (Part 3)
   * Exchange Sort

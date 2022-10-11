@@ -1,4 +1,4 @@
-# Learning-Algorithms
+# Algorithms
 
 In this repository, I'm going to cover some of famous algorithms that we've been using even now. 
 All the codes are written by myself during practicing and taking classes.

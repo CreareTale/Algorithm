@@ -28,9 +28,9 @@ All the codes are written by myself during practicing and taking classes.
   * Binary Search
   * Binary Tree Search
 - Search Algorithms (Part 2)
-* Red-Black Tree
-* Red-Black Tree with Validating Funtion
-* AVL Tree with Validating Function
+  * Red-Black Tree
+  * Red-Black Tree with Validating Funtion
+  * AVL Tree with Validating Function
 - ... and more to come!
 
 ## Language

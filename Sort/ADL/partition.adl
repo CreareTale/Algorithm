@@ -1,0 +1,15 @@
+partition(a[], l, r)
+
+  v ← a[r];     // 가장 오른쪽 원소를 피벗으로 정함
+  i ← l-1;      // 왼쪽에서 오른쪽으로 움직이는 포인터
+  j ← r;        // 오른쪽에서 왼쪽으로 움직이는 포인터
+  for ( ; ; ) do {
+    do { i ← i+1; } while (a[i] < v);   // 피봇보다 작으면 i 증가
+    do { j ← j-1; } while (a[j] > v);   // 피봇보다 크면 j 감소
+    if (i ≥ j) then break;              // 왼쪽과 오른쪽 포인터가 교차하면 중지
+    a[i]와 a[j]를 교환;
+  }
+  a[i]와 a[r]을 교환;
+  return i;
+  
+end partition()

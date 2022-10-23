@@ -1,0 +1,13 @@
+insertionSort(a[], n)
+// v는 a[i], 1 ≤ i ≤ n
+// v를 부분 배열 a[1 : i-1]에 오름차순으로 삽입
+    for (i ← 2; i ≤ n; i ← i+1) do {
+        (v = a[i]);             // 임시저장소
+        (j ← i);
+        while (a[j-1] > v) do {
+            (a[j] ← a[j-1]);    // a[j-1]을 오른쪽으로 한자리 이동시켜 빈자리 생성
+            (j ← j-1);
+        }
+        (a[j] ← v);             // v를 빈자리에 삽입
+    } 
+end insertionSort()

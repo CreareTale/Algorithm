@@ -1,0 +1,6 @@
+bubbleSort(a[], n)
+    for (i ← n; i ≥ 1; i ← i-1) do {        // n까지 비교하고 비교 크기를 줄여야 하므로 n부터 시작
+        for (j ← 1; j < i; j ← j+1) do      // n까지 비교할 필요 없다
+            if (a[j] > a[j+1]) then (a[j]와 a[j+1]를 교환);
+    }
+end bubbleSort()

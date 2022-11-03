@@ -19,12 +19,19 @@ All the codes are written by myself during practicing and taking classes.
   * Cocktail Shaker Sort
   * Counting Sort
   * Radix Sort
+  
 - Search Algorithms
   * Sequential Search
   * Binary Search
   * Binary Tree Search
   * Red-Black Tree (with Validating Funtion)
   * AVL Tree (with Validating Function)
+  * Digital Search Tree
+  * Radix Search Tree
+  * Patricia Tree
+  * Linear Probing 
+  * Double Hashing
+  
 - ... and more to come!
 
 ## Language
